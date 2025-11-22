@@ -1,0 +1,1 @@
+This is a one-page responsive website built with HTML and CSS styling, implementing the "Smile School" design.
