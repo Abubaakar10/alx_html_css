@@ -1,10 +1,9 @@
-/* --- GLOBAL RESET & UTILITIES --- */
 body {
     font-family: 'Source Sans Pro', sans-serif;
     color: #444;
     margin: 0;
     padding: 0;
-    overflow-x: hidden; /* Prevents horizontal scrollbar */
+    overflow-x: hidden; 
 }
 
 a {
@@ -12,18 +11,15 @@ a {
     color: inherit;
 }
 
-/* Container to center everything */
 .container {
     max-width: 1000px;
     margin: 0 auto;
     padding: 0 20px;
 }
 
-/* Helper Classes */
 .purple-text { color: #C271FF; }
 .white-text { color: white; }
 
-/* --- BUTTON STYLE --- */
 .btn-cta {
     background-color: #C271FF;
     color: white;
@@ -39,7 +35,6 @@ a {
 }
 .btn-cta:hover { opacity: 0.9; }
 
-/* --- HEADER --- */
 .header {
     position: absolute;
     top: 30px;
@@ -72,7 +67,7 @@ a {
 }
 
 .hero {
-    background-image: url('images/pic_1.jpg');
+    background-image: url('images/Object.png');
     background-size: cover;
     background-position: center;
     padding-top: 250px;
