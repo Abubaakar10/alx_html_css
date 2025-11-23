@@ -125,3 +125,46 @@ a {
     object-fit: cover;
     margin-bottom: 10px;
 }
+
+.quote-section {
+    background-color: #C271FF;
+    color: white;
+    padding: 80px 0;
+}
+
+.quote-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.avatar-large {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+.quote-text blockquote {
+    font-size: 1.3rem;
+    line-height: 1.5;
+    margin: 0 0 20px 0;
+    font-weight: 400;
+}
+
+.author-name {
+    font-weight: bold;
+    margin: 0;
+    padding-bottom: 5px;
+}
+
+.author-role {
+    font-style: italic;
+    margin: 0;
+    opacity: 0.8;
+}
